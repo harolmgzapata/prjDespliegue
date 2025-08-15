@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'prjhmgz.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='PGPASSWORD=mYHMBGwpn9V4szBtb3OlOCVjOReSISY2 psql -h dpg-d2fbe20gjchc73fe52tg-a.oregon-postgres.render.com -U postgress renderbd_2p9j',
+        default='postgresql://postgress:mYHMBGwpn9V4szBtb3OlOCVjOReSISY2@dpg-d2fbe20gjchc73fe52tg-a.oregon-postgres.render.com/renderbd_2p9j',
         conn_max_age=600
     )
 }
